@@ -1,0 +1,17 @@
+{
+  "include": ["**/*.js", "**/*.cjs", "**/*.mjs", "**/*.jsx"],
+  "exclude": ["node_modules"],
+  
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "../types",
+    "declarationMap": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "lib": ["ESNext"],
+    "target": "esnext"
+  }
+}
